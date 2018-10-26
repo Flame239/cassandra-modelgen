@@ -4,6 +4,9 @@ import javax.annotation.processing.ProcessingEnvironment;
 import javax.lang.model.element.Element;
 import javax.tools.Diagnostic;
 
+/**
+ * @author flame239
+ */
 public class MessageLogger {
   private final ProcessingEnvironment env;
   private final boolean debug;
