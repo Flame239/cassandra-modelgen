@@ -11,7 +11,7 @@ Generate static metamodel classes from spring-annotated cassandra entities which
     <source>1.8</source>
     <target>1.8</target>
     <annotationProcessors>
-      <annotationProcessor>CassandraModelProcessor</annotationProcessor>
+      <annotationProcessor>com.flame239.cassandra.modelgen.CassandraModelProcessor</annotationProcessor>
     </annotationProcessors>
   </configuration>
 </plugin>
