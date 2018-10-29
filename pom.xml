@@ -5,7 +5,7 @@
 
     <groupId>com.flame239</groupId>
     <artifactId>cassandra-modelgen</artifactId>
-    <version>1.0.0</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
     <name>cassandra-modelgen</name>
@@ -26,7 +26,7 @@
         <maven-release-plugin.version>2.5.2</maven-release-plugin.version>
 
         <spring-data-cassandra.version>2.0.11.RELEASE</spring-data-cassandra.version>
-        <velocity.version>1.7</velocity.version>
+        <velocity.version>2.0</velocity.version>
     </properties>
 
     <build>
@@ -49,7 +49,7 @@
         <dependencies>
             <dependency>
                 <groupId>org.apache.velocity</groupId>
-                <artifactId>velocity</artifactId>
+                <artifactId>velocity-engine-core</artifactId>
                 <version>${velocity.version}</version>
             </dependency>
             <dependency>
@@ -63,7 +63,7 @@
     <dependencies>
         <dependency>
             <groupId>org.apache.velocity</groupId>
-            <artifactId>velocity</artifactId>
+            <artifactId>velocity-engine-core</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.data</groupId>

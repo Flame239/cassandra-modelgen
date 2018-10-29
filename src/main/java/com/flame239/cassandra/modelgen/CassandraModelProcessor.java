@@ -2,7 +2,7 @@ package com.flame239.cassandra.modelgen;
 
 import com.flame239.cassandra.modelgen.context.ElementContext;
 import com.flame239.cassandra.modelgen.context.Field;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.data.cassandra.core.mapping.Column;
 import org.springframework.data.cassandra.core.mapping.Table;
 
